@@ -68,6 +68,7 @@ nav h3 {
   letter-spacing: 0%;
   text-align: left;
 }
+/* banner related styles */
 .banner {
   display: flex;
   justify-content: space-around;
@@ -114,6 +115,13 @@ nav h3 {
   border-radius: 5px;
   margin-left: 20px;
 }
+/* main related styles */
+main {
+  max-width: 1140px;
+  margin: 130px auto;
+}
+/* about me related styles */
+
 /* phone */
 @media screen and (max-width: 576px) {
   * {
