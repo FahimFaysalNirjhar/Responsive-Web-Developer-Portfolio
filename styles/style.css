@@ -112,4 +112,40 @@ nav h3 {
   box-sizing: border-box;
   border: 1px solid rgba(253, 110, 10, 1);
   border-radius: 5px;
+  margin-left: 20px;
+}
+/* phone */
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-image: none;
+  }
+  nav {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .banner-description {
+    margin: 50px;
+  }
+  .contact {
+    margin-top: 10px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 576.01px) and (max-width: 1024px) {
+  .banner img {
+    width: 100%;
+  }
+  .banner {
+    flex-direction: column;
+  }
 }
