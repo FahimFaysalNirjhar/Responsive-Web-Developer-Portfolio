@@ -8,7 +8,6 @@
 .btn-style {
   padding: 15px 20px;
   color: rgba(255, 255, 255, 1);
-  font-family: Open Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 100%;
@@ -17,13 +16,18 @@
   border: none;
   border-radius: 5px;
   background: rgba(253, 110, 10, 1);
-
-  font-family: Open Sans;
   font-size: 20px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
+/* header related styles */
+header {
+  background-color: rgba(255, 248, 243, 1);
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
 }
 /* nav related styles */
 nav {
@@ -63,4 +67,49 @@ nav h3 {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: left;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-description {
+  max-width: 585px;
+  margin-left: 100px;
+}
+.banner-subtitle {
+  color: rgba(71, 71, 71, 1);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-title {
+  color: rgba(24, 24, 24, 1);
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-para {
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact {
+  color: rgba(253, 110, 10, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgba(255, 248, 243, 1);
+  box-sizing: border-box;
+  border: 1px solid rgba(253, 110, 10, 1);
+  border-radius: 5px;
 }
