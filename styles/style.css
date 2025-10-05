@@ -357,13 +357,13 @@ main {
     flex-direction: column;
   }
   .para {
-    width: 80%;
+    width: 95%;
     height: 100%;
     text-align: justify;
   }
   .resume hr {
     margin: 10px;
-    width: 60%;
+    width: 90%;
   }
   .resume-heading {
     margin-bottom: 50px;
@@ -377,6 +377,9 @@ main {
   .resume {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .resume-column {
+    text-align: center;
   }
 }
 /* tablet */
