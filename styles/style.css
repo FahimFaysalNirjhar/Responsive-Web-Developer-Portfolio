@@ -204,13 +204,35 @@ main {
   .contact {
     margin-top: 10px;
   }
+  .about-me-para {
+    width: 100%;
+    margin: 20px;
+    text-align: justify;
+  }
+  .about-me {
+    padding: 10px;
+  }
+  .info-container {
+    flex-direction: column;
+    margin-top: 155px;
+  }
 }
 /* tablet */
-@media screen and (min-width: 576.01px) and (max-width: 1024px) {
+@media screen and (min-width: 576.01px) and (max-width: 1025px) {
   .banner img {
     width: 100%;
   }
   .banner {
     flex-direction: column;
+  }
+  .about-me-para {
+    width: 100%;
+    margin: 20px;
+  }
+  .about-me {
+    padding: 10px;
+  }
+  .info-container {
+    margin-top: 20px;
   }
 }
