@@ -317,7 +317,7 @@ main {
     flex-direction: column;
   }
   .banner img {
-    width: 100%;
+    width: 80%;
   }
   .banner-description {
     margin: 50px;
@@ -326,7 +326,7 @@ main {
     margin-top: 10px;
   }
   .about-me-para {
-    width: 100%;
+    width: 90%;
     margin: 20px;
     text-align: justify;
   }
@@ -341,7 +341,7 @@ main {
     border: none;
   }
   .what-i-do-para {
-    width: 100%;
+    width: 80%;
     height: 100%;
     text-align: justify;
     margin-top: 20px;
@@ -362,7 +362,8 @@ main {
     text-align: justify;
   }
   .resume hr {
-    display: none;
+    margin: 10px;
+    width: 60%;
   }
   .resume-heading {
     margin-bottom: 50px;
@@ -372,6 +373,10 @@ main {
   }
   .title {
     font-size: 20px;
+  }
+  .resume {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 /* tablet */
@@ -401,5 +406,8 @@ main {
     height: 100%;
     text-align: justify;
     margin-top: 20px;
+  }
+  .resume-container {
+    flex-direction: column;
   }
 }
