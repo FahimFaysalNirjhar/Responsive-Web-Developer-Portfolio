@@ -299,6 +299,69 @@ main {
   text-align: center;
   margin-top: 50px;
 }
+/* footer related styles */
+footer {
+  background: rgba(255, 248, 243, 1);
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  padding: 100px 100px;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer-title {
+  color: rgba(24, 24, 24, 1);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.footer-para {
+  color: rgba(71, 71, 71, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 562px;
+  height: 56px;
+}
+.social-icons {
+  display: flex;
+  gap: 24px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+form .btn-style {
+  /* Group 3987 */
+  width: 150px;
+  height: 64px;
+}
+form input[type="text"],
+input[type="email"],
+textarea {
+  padding: 18px 30px;
+  border: none;
+  width: 461px;
+}
+form input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: rgba(117, 117, 117, 1);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
 /* phone */
 @media screen and (max-width: 576px) {
@@ -384,6 +447,42 @@ main {
     justify-content: center;
     align-items: center;
   }
+  footer {
+    padding: 0;
+    height: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 50px;
+  }
+  .footer-para {
+    width: 95%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .footer-column {
+    text-align: center;
+  }
+  form input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 18px 30px;
+    border: none;
+    width: 60%;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  form {
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icons {
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* tablet */
 @media screen and (min-width: 576.01px) and (max-width: 1025px) {
@@ -415,5 +514,33 @@ main {
   }
   .resume-container {
     flex-direction: column;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 50px;
+  }
+  footer {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+  form {
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-column {
+    text-align: center;
+  }
+  .footer-para {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-left: 60px;
+    margin: 60px auto;
+  }
+  .social-icons {
+    justify-content: center;
+    align-items: center;
   }
 }
